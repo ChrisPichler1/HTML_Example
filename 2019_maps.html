@@ -1,0 +1,107 @@
+<!--
+Class: COSC 231.10
+Name:  Chris Pichler
+EID:   E02760792
+Lab:   04 (Part 04)
+Date:  2023-10-28 SAT T 23:59:00 Z-04:00
+
+Requires: A web browser that can read HTML code, a file called "wolfcreek.css" that is
+located in a directory called "css" located in the same path as this file, and a file called
+"wolfcreek.js" located in a directory called "js" located in the same path as this file.
+-->
+
+<!DOCTYPE HTML>
+<html dir="ltr" lang="en">
+<head>
+	
+    <meta charset="utf-8">
+	<title>Wolf Creek Dam : Maps</title>
+
+	<link rel="stylesheet" href="css/wolfcreek.css">	
+	<script src="js/wolfcreek.js"></script>
+
+	<style>
+	</style>
+
+    <script>
+    </script>
+
+</head>
+<body> 
+
+	<div id="top"></div>
+
+	<div id="navmenu_div" class="navbarouter">
+		<button id="nav_button" onlcick="showhide_nav_menu(this)">Hide Menu</button> 
+		<div id="navbar" class="navbar">
+			<div class="nav_list"><p>Maps &amp; Charts:</p></div>
+			<div class="nav_list">	
+				<a href="index.html">Main</a>
+				<a href="2019_maps.html">Maps</a>
+				<a href="2019_charts.html">Charts</a>
+				<a href="2019_weblinks.html">Weblinks</a>
+			</div>	
+			<div class="nav_list"><p>Hourly Readings by Month:</p></div>
+			<div class="nav_list">
+				<a href="2019_01.html">2019-01</a>
+				<a href="2019_02.html">2019-02</a>
+				<a href="2019_03.html">2019-03</a>
+				<a href="2019_04.html">2019-04</a>
+				<a href="2019_05.html">2019-05</a>
+				<a href="2019_06.html">2019-06</a>
+			</div>	
+			<div class="nav_list">	
+				<a href="2019_07.html">2019-07</a>
+				<a href="2019_08.html">2019-08</a>
+				<a href="2019_09.html">2019-09</a>
+				<a href="2019_10.html">2019-10</a>
+				<a href="2019_11.html">2019-11</a>
+				<a href="2019_12.html">2019-12</a>
+			</div> <!-- END	<div id="nav_list"> -->
+		</div> <!-- END of <div id="navbar" class="navbar"> -->
+	</div> <!-- END <div id="navmenu_div"> -->
+		
+	<h1 class="major_format">
+	Maps
+	<br>
+	(Wolf Creek Dam, Russell, KY, USA)
+	</h1>
+
+	<hr>
+
+	<div id="map_list" class="major_format"> 
+		<h2>Map Index:</h2>
+		<ol>
+			<li><a href="#map_01">Lake Cumberland Watershed Map</a> (Google Maps)</li>
+			<li><a href="#map_02">Wolf Creek Dam</a> (OpenStreetMap)</li>
+		</ol>
+	</div> <!-- END	<div id="nav_list"> -->		
+	
+	<hr>
+		
+	<div id="map_01" class="map_div major_format">
+		<h2 class="major_format">Lake Cumberland Watershed (Google Maps)</h2>
+		<iframe src="https://www.google.com/maps/d/embed?mid=1HxD2Pntn4hB7ZXv3nYAV5rQWNnc&hl=en_US&ehbc=2E312F"></iframe>
+	</div> <!-- END		<div id="map_01"> -->
+	
+	<hr>
+
+	<div id="map_02" class="map_div major_format">
+		<h2 class="major_format">Wolf Creek Dam in Russell, KY, USA (OpenStreetMap)</h2>
+		<iframe src="https://www.openstreetmap.org/export/embed.html?zoom=12&bbox=-85.19408226013185%2C36.851912961281435%2C-85.1224136352539%2C36.884666640384&amp;layer=mapnik" ></iframe>
+		<br>
+		<div class="major_format">
+			<small><a href="https://www.openstreetmap.org/#map=15/36.8683/-85.1529" target="wcdem_osmap">View Larger Map (on OpenStreetMap)</a></small>
+		</div>
+	</div> <!-- END		<div id="map_02"> -->
+
+	<div class="major_format"><button><a href="#top">Go To Top</a></button></div>
+	
+	<hr>
+	
+	<div id="copyright" class="major_format">
+		<p>&copy; 2023 - Chris Pichler</p>
+	</div>
+	
+</body>
+</html>
